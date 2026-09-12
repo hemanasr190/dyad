@@ -7,6 +7,7 @@ export default defineConfig(() => ({
   server: {
     host: "::",
     port: 8080,
+    allowedHosts: ["sb-4pn4zv48vux2.vercel.run", ".vercel.run"],
   },
   plugins: [dyadComponentTagger(), react()],
   resolve: {
